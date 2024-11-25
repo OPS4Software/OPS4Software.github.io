@@ -35,7 +35,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+button[type=submit] {
   width: 100%;
   background-color: #b19f7f;
   color: white;
@@ -50,7 +50,7 @@ input[type=submit] {
   transition-duration: 0.4s;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #9f8f72;
   box-shadow: 0 0 40px -10px rgba(0,0,0,.4), 0 0 25px -15px rgba(0,0,0,.2);
 }
