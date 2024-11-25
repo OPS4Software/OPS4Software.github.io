@@ -2,7 +2,6 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-document.getElementById("test").display = none;
 document.getElementById("first_name").innerHTML = tg.initDataUnsafe.user.first_name + ', Superadmin';
 
 let trx_id = document.getElementById("trx_id")
